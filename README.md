@@ -1,7 +1,8 @@
-#📦 Breast Cancer Prediction App
+# Cancer Prediction Machine Learning App
 
 
-me
+
+This is a machine learning app
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://Andrew Blaze Machine-Learning.streamlit.app/)
 
