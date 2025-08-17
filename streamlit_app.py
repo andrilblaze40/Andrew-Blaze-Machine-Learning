@@ -51,7 +51,7 @@ with st.sidebar:
           'smoothness_se': smoothness_se,
           'smoothness_mean': smoothness_mean}
   input_df = pd.DataFrame(data, index=[0])
-  input_data = pd.concat([input_df, X], axis=0)
+  input_data = pd.concat([input_df], axis=0)
 
 
 
