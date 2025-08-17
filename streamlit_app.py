@@ -52,6 +52,12 @@ with st.sidebar:
           'smoothness_mean': smoothness_mean}
   input_df = pd.DataFrame(data, index=[0])
   input_data = pd.concat([input_df], axis=0)
+  
+  with st.expander('Input features'):
+  st.write('**Input Data**')
+  input_df
+  st.write('**Combined Input Data**')
+  input_data
 
 
 
