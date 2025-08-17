@@ -17,9 +17,11 @@ from imblearn.over_sampling import RandomOverSampler
 st.title('🎈ML CANCER DIAGNOSIS APP')
 
 st.info('MACHINE LEARNING PIPELINE')
+with st.expander("Data"):
+  st.write("**Raw Data**")
 def get_clean_data():
     df= pd.read_csv("cleaned_breast_cancer_data.csv")
     df=df.drop(['Unnamed: 32','id'], axis=1)
     df['diagnosis'].replace({'M':1,'B':0},inplace=True)
     return df
-    df
+
