@@ -17,3 +17,7 @@ from imblearn.over_sampling import RandomOverSampler
 st.title('🎈ML CANCER DIAGNOSIS APP')
 
 st.info('MACHINE LEARNING PIPELINE')
+with st.expander("Data"):
+  st.write("**Raw Data**")
+  df = pd.read_csv("cleaned_breast_cancer_data.csv")
+  df
