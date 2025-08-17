@@ -22,3 +22,4 @@ def get_clean_data():
     df=df.drop(['Unnamed: 32','id'], axis=1)
     df['diagnosis'].replace({'M':1,'B':0},inplace=True)
     return df
+    df
