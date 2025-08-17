@@ -54,10 +54,13 @@ with st.sidebar:
   input_data = pd.concat([input_df], axis=0)
   
   with st.expander('Input features'):
-  st.write('**Input Data**')
-  input_df
-  st.write('**Combined Input Data**')
-  input_data
+    st.write('**Input Data**')
+    input_df
+    st.write('**Combined Input Data**')
+    input_data
+    
+  
+  
 
 
 
